@@ -5,3 +5,64 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+
+/* Globales */
+body{
+    background-color: #f2f2f2;
+}
+.contenedor{
+    max-width: 110rem;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header */
+.banner{
+    background-image: url(../img/encabezado.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60vh;
+}
+.contenedor-header{
+    color: #ffffff;
+}
+.redes-sociales{
+    padding: 2rem;
+    text-align: center;
+}
+.redes-sociales a{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.redes-sociales a:last-of-type{
+    margin-right: 0;
+}
+.informacion-evento{
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .informacion-evento{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+.informacion-evento p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+@media(min-width: 768px) {
+    .informacion-evento p{
+        display: inline;
+    }
+}
+.informacion-evento p i{
+    color: #fe4918;
+    margin-right: 1rem;
+}
