@@ -25,11 +25,11 @@ img{
 }
 .separador{
     width: 5rem;
-    margin: 0 auto;
 }
 h2{
     font-size: 3rem;
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 h3{
     font-size: 1.8rem;
@@ -243,6 +243,10 @@ h3{
     padding: 1.5rem;
     margin-top: 8rem;
 }
+.titulo-programa{
+    text-align: center;
+    margin-bottom: 2rem;
+}
 @media(min-width: 768px) {
     .programa-evento{
         width: 50%;
@@ -296,4 +300,55 @@ h3{
     color: #fe4918;
     font-size: 2.2rem;
     margin-right: .5rem;
+}
+
+/* Ponentes */
+.invitados{
+    padding: 5rem 0;
+}
+.invitados h2{
+    text-transform: uppercase;
+}
+.titulo-invitados{
+    text-align: center;
+}
+.ponentes{
+    margin-top: 2rem;
+}
+.ponentes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ponente{
+    flex-basis: calc(50% - 1rem);
+    margin-bottom: 2rem;
+    position: relative;
+}
+@media(min-width: 768px) {
+    .ponente{
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
+.ponente img{
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease-in-out;
+}
+.ponente:hover img{
+    -webkit-filter: grayscale(0);
+}
+.ponente p{
+    position: absolute;
+    bottom: .2rem;
+    left: 0;
+    color: #fe4918;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem;
 }
