@@ -333,10 +333,10 @@ h3{
 .ponente img{
     filter: gray;
     -webkit-filter: grayscale(1);
-    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 .ponente:hover img{
-    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 .ponente p{
     position: absolute;
@@ -350,5 +350,5 @@ h3{
     font-size: 2rem;
     width: 100%;
     margin: 0;
-    padding: 1.5rem;
+    padding: 1.5rem; 
 }
