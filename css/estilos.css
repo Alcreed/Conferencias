@@ -528,4 +528,39 @@ p{
     display: block;
 }
 
+/* Newsletter */
+.newsletter{
+    background-image: url(../img/bg-newsletter.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.newsletter::after{
+    content: '';
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.contenido-newsletter{
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+}
+.contenido-newsletter p{
+    font-size: 2rem;
+}
+.contenido-newsletter h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.boton-registro{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
 
