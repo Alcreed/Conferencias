@@ -401,6 +401,7 @@ p{
 }
 .titulo-precios{
     text-align: center;
+    text-transform: uppercase;
     margin-bottom: 4rem;
 }
 @media(min-width: 768px) {
@@ -451,3 +452,80 @@ p{
     font-weight: 700;
     font-size: 5rem;
 }
+
+/* Mapa */
+.mapa{
+    height: 30rem;
+    background-color: green;
+}
+
+/* Testimoniales */
+.testimoniales{
+    padding: 5rem 0;
+}
+.titulo-testimoniales{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+@media(min-width: 768px) {
+    .tarjetas-testimoniales{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.testimonial{
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+    position: relative;
+}
+@media(min-width: 768px) {
+    .testimonial{
+        flex: 0 0 calc(31% - 1rem);
+        margin-bottom: 0;
+        padding: 2rem 0;
+    }
+}
+.testimonial blockquote{
+    margin: 0;
+}
+.testimonial p{
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+    padding: 0 3rem 0 5rem; 
+}
+.testimonial p::before{
+    content: '\201c';
+    position: absolute;
+    left: 1rem;
+    top: .5rem;
+    font-size: 8rem;
+    color: #fe4918;
+}
+.testimonial footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 3rem 0 3rem;
+}
+.testimonial footer img{
+    width: 30%;
+    border-radius: 50%;
+}
+.testimonial footer cite{
+    width: 70%;
+    margin-left: 1rem;
+    line-height: 2;
+    color: #fe4918;
+    font-size: 1.1rem;
+}
+.testimonial footer cite span{
+    color: #868686;
+    display: block;
+}
+
+
