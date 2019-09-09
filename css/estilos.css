@@ -768,6 +768,7 @@ form.registro label{
 .orden select{
     margin-top: .5rem;
 }
-.total{
-    text-align: center;
+.titulo-total{
+    margin-top: 2rem;
 }
+
