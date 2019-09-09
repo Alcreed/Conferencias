@@ -709,7 +709,6 @@ form.registro label{
 .paquetes .tarjeta:hover{
     transform: none;
     box-shadow: none;
-    border: none;
 }
 .paquetes .tarjeta input{
     clear: both;
