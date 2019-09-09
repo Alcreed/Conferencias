@@ -36,8 +36,19 @@ h3{
     font-family: 'PT Sans', sans-serif;
     margin: 0;
 }
+h4{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fe4918;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
 p{
     margin: 0;
+    font-size: 1rem;
+}
+label{
+    font-size: 1.3rem;
 }
 .boton{
     display: block;
@@ -653,4 +664,111 @@ p{
     color: #ffffff;
     padding: 2rem;
     font-size: 1.4rem;
+}
+
+/* Registro */
+.caja{
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    margin: 1rem;
+}
+.seccion-registro{
+    padding: 5rem 0;
+}
+.titulo-registro{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+form.registro h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0 0 0;
+    color: #fe4918;
+}
+form.registro label{
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+.campo{
+    padding: 2rem;
+}
+@media(min-width: 768px) {
+    .info-usuario{
+        display: flex;
+        justify-content: space-between;
+    }
+    .campo{
+        flex: 0 0 calc(33.3% -1rem);
+    }
+}
+.paquetes .tarjetas-precios{
+    margin: 2rem 0 0 0;
+}
+.paquetes .tarjeta:hover{
+    transform: none;
+    box-shadow: none;
+    border: none;
+}
+.paquetes .tarjeta input{
+    clear: both;
+    width: 10rem;
+    margin: 1rem auto 0 auto;
+    display: block;
+
+}
+.contenido-dia{
+    padding: 2rem;
+    /*display: none;*/
+}
+.info-talleres p{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.info-talleres div label{
+    display: block;
+    margin: 1rem 0;
+}
+.info-talleres div label time{
+    color: #fe4918;
+    font-weight: bold;
+}
+.info-talleres div input{
+    margin-right: 1rem;
+}
+@media(min-width: 768px) {
+    .info-talleres{
+        display: flex;
+        justify-content: space-between;
+    }
+    .info-talleres div{
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
+.resumen-pago{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.resumen-pago > div{
+    flex: 0 0 calc(50% - 1rem);
+}
+.resumen-pago p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.extras .orden{
+    margin-bottom: 1rem;
+}
+.extras .orden input{
+    display: block;
+    margin-top: 1rem;
+}
+.orden select{
+    margin-top: .5rem;
+}
+.total{
+    text-align: center;
 }
