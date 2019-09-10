@@ -690,6 +690,7 @@ form.registro h3{
 form.registro label{
     margin-bottom: .5rem;
     font-weight: bold;
+    margin-right: 1rem;
 }
 .campo{
     padding: 2rem;
@@ -700,8 +701,14 @@ form.registro label{
         justify-content: space-between;
     }
     .campo{
-        flex: 0 0 calc(33.3% -1rem);
+        flex: 0 0 calc(33.3% - 1rem);
     }
+}
+.error{
+    display: none;
+    font-size: 1.5rem;
+    color: #fe4918;
+    text-align: center;
 }
 .paquetes .tarjetas-precios{
     margin: 2rem 0 0 0;
@@ -719,7 +726,7 @@ form.registro label{
 }
 .contenido-dia{
     padding: 2rem;
-    /*display: none;*/
+    display: none;
 }
 .info-talleres p{
     font-size: 1.4rem;
@@ -766,9 +773,23 @@ form.registro label{
     margin-top: 1rem;
 }
 .orden select{
-    margin-top: .5rem;
+    margin: .5rem 0 2rem 0;
+}
+.total{
+    text-align: center;
 }
 .titulo-total{
     margin-top: 2rem;
 }
-
+.lista-productos{
+    display: none;
+    background-color: #e1e1e1;
+    padding: 2rem;
+    font-size: 1.4rem;
+    text-align: left;
+}
+.suma-total{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: #fe4918;
+}

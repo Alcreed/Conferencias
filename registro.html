@@ -62,19 +62,19 @@
         <form id="registro" class="registro" action="" method="POST">
             <div id="datos-usuario" class="registro caja info-usuario">
                 <div class="campo">
-                    <label for="nombre">Nombre</label>
+                    <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Nombre">
                 </div>
                 <div class="campo">
-                    <label for="apellido">Apellido</label>
+                    <label for="apellido">Apellido:</label>
                     <input type="text" id="apellido" name="apellido" placeholder="apellido">
                 </div>
                 <div class="campo">
-                    <label for="email">Email</label>
+                    <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="email">
                 </div>
-                <div id="error"></div>
             </div>
+            <div id="error" class="caja error"></div>
 
             <div id="paquetes" class="paquetes">
                 <h3>Elige el número de boletos</h3>
@@ -219,11 +219,11 @@
                     </div>
                     <div class="total">
                         <p>Resumen:</p>
-                        <div id="lista-productos" class="productos">
+                        <div id="lista-productos" class="lista-productos">
 
                         </div>
                         <p class="titulo-total">Total:</p>
-                        <div id="suma-total">
+                        <div id="suma-total" class="suma-total">
 
                         </div>
                         <input type="submit" id="btnRegistro" class="boton" value="Pagar">
