@@ -305,6 +305,7 @@ label{
 }
 .detalle-evento h3{
     color: #fe4918;
+    margin-bottom: 1rem;
 }
 .detalle-evento p{
     margin-bottom: 2rem;
