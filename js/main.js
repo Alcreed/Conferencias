@@ -4,16 +4,16 @@
     var regalo = document.getElementById('regalo');
 
     document.addEventListener('DOMContentLoaded', function(){
+        
+        // var map = L.map('mapa').setView([5.025092, -74.00107], 16);
 
-        var map = L.map('mapa').setView([5.025092, -74.00107], 16);
+        // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        //     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        // }).addTo(map);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        L.marker([5.025092, -74.00107]).addTo(map)
-            .bindPopup('GDLWebCamp <br> Práctica de desarrollo.')
-            .openPopup();
+        // L.marker([5.025092, -74.00107]).addTo(map)
+        //     .bindPopup('GDLWebCamp <br> Práctica de desarrollo.')
+        //     .openPopup();
 
         //Campos datos usuario
         var nombre = document.getElementById('nombre');
@@ -55,6 +55,7 @@
             }
             else{
                 errorDiv.style.display = "none";
+                console.log(this.value);
             }
         }
 
