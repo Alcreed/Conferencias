@@ -78,6 +78,19 @@ label{
     border-bottom: 1px solid #000000;
 }
 
+/* Lettering */
+.titulo span{
+    position: relative;
+    text-shadow: 0 0 3rem black;
+}
+/*
+@media(min-width: 992px) {
+    .char1{
+        top: 2rem; right: 2rem;
+    }
+}
+*/
+
 /* Header */
 .banner{
     background-image: url(../img/encabezado.jpg);
@@ -592,7 +605,7 @@ label{
     border: 2px solid #ffffff;
 }
 
-/* Cuenta regresviva */
+/* Cuenta regresiva */
 .cuenta-regresiva{
     padding: 5rem 0;
 }
