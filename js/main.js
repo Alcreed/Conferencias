@@ -55,7 +55,6 @@
             }
             else{
                 errorDiv.style.display = "none";
-                console.log(this.value);
             }
         }
 
