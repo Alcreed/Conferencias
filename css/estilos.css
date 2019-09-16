@@ -273,7 +273,6 @@ label{
 .menu-programa{
     width: 100%;
     border-bottom: 1px solid #fe4918;
-    padding-bottom: 1rem;
 }
 @media(min-width: 768px) {
     .menu-programa{
@@ -288,7 +287,22 @@ label{
     color: #000000;
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.menu-programa a.activo::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 2rem;
+    width: 3rem;
+    background-image: url(../img/talleres-flecha.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    bottom: -2rem;
 }
 .menu-programa a i{
     color: #fe4918;
@@ -296,6 +310,9 @@ label{
     margin-right: .5rem;
 }
 /* Detalle evento */
+.ocultar{
+    display: none;
+}
 .detalle-evento{
     padding: 1.5rem;
 }
