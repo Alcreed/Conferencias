@@ -159,9 +159,16 @@ label{
 }
 
 /* Navegacion */
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
 .barra-navegacion{
     background-color: #45474E;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 .contenido-barra{
     display: flex;

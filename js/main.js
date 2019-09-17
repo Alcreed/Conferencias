@@ -167,6 +167,23 @@ $(function(){
         return false;
     }
 
+    //Menú fijo
+    var windowHeight = $(window).height();
+    var barraAltura = $('.barra-navegacion').innerHeight();
+
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if(scroll > windowHeight)
+        {
+            $('.barra-navegacion').addClass('fixed');
+            $('body').css({'margin-top':barraAltura + 'px'});
+        }
+        else{
+            $('.barra-navegacion').removeClass('fixed');
+            $('body').css({'margin-top':'0px'});
+        }
+    })
+
     //Lettering
     $('.titulo').lettering();
 
