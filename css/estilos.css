@@ -170,10 +170,12 @@ label{
     background-color: #45474E;
     padding: 1rem 0;
 }
-.contenido-barra{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media(min-width: 768px) {
+    .contenido-barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .logo{
     width: 80%;
@@ -225,23 +227,23 @@ label{
     }
 }
 
-/* Menú Mobil */
-.menu-mobil{
+/* Menú Movil */
+.menu-movil{
     display: block;
     width: 4rem;
 }
 @media(min-width: 768px) {
-    .menu-mobil{
+    .menu-movil{
         display: none;
     }
 }
-.menu-mobil span{
+.menu-movil span{
     height: .6rem;
     margin-bottom: .7rem;
     background-color: #ffffff;
     display: block;
 }
-.menu-mobil span:last-of-type{
+.menu-movil span:last-of-type{
     margin-bottom: 0;
 }
 
