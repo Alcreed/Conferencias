@@ -38,7 +38,9 @@
     <div class="barra-navegacion">
         <div class="contenido-barra contenedor">
             <div class="logo">
-                <img src="img/logo.svg" alt="Imagen Logo">
+                <a href="index.php">
+                    <img src="img/logo.svg" alt="Imagen Logo">
+                </a>
             </div>
             <div class="menu-movil">
                 <span></span>
