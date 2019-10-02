@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Document</title>
-</head>
-<body>
-
-    <header class="site-header">
-
-        <div class="banner">
-            <div class="contenedor-header contenedor">
-                <nav class="redes-sociales">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </nav>
-                <div class="informacion-evento">
-                    <p class="fecha"><i class="far fa-calendar-alt"></i>20-09</p>
-                    <p class="ciudad"><i class="fas fa-map-marker-alt"></i>Bogotá D.C, Colombia</p>
-                </div>
-                <h1 class="titulo">BgtWebCamp</h1>
-                <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
-            </div>
-        </div>
-
-    </header>
-
-    <div class="barra-navegacion">
-        <div class="contenido-barra contenedor">
-            <div class="logo">
-                <img src="img/logo.svg" alt="Imagen Logo">
-            </div>
-            <div class="menu-movil">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav class="navegacion-principal">
-                <a href="#">Conferencia</a>
-                <a href="#">Calendario</a>
-                <a href="#">Invitados</a>
-                <a href="registro.html">Reservaciones</a>
-            </nav>
-        </div>
-    </div>
+<?php include_once 'includes/templates/header.php'; ?>
 
     <section class="seccion-registro contenedor">
         <div class="titulo-registro">
@@ -233,35 +180,4 @@
         </form>
     </section>
 
-    <footer class="site-footer">
-        <div class="contenido-footer contenedor">
-            <div class="info-footer">
-                <h3>Sobre <span>GDLWebCamp</span></h3>
-                <p>Nullam rhoncus lacinia lacus, in bibendum purus vulputate quis. Mauris a dolor enim. Aenean eu dui at ex malesuada mattis. Praesent congue dui vel lacus ultrices, eget dapibus nunc maximus. Sed convallis placerat massa, eget venenatis est. Nulla pulvinar elit interdum accumsan consectetur. Proin nec ex ultricies, mattis quam nec, interdum neque. Mauris in eros sed ex dictum dictum eu nec nulla. Fusce vel ex imperdiet, feugiat dolor at, fringilla dolor. Etiam facilisis iaculis sem, ac dignissim elit sodales eget.</p>
-            </div>
-            <div class="info-footer">
-                <h3>Ultimos <span>tweets</span></h3>
-                <p>Quisque at facilisis urna. Proin sit amet felis ullamcorper, semper lectus pulvinar, fringilla libero. Ut ullamcorper mauris nec ante rhoncus porta.</p><br>
-                <p>Donec eu gravida nibh. Sed augue tellus, congue et malesuada at, volutpat eget dui. Sed quis facilisis purus, in suscipit lorem. Aenean sit amet nisi vehicula, pellentesque sem rutrum, lobortis sapien.</p><br>
-                <p>Fusce vulputate libero turpis, a iaculis turpis pulvinar non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean dolor velit, posuere in magna a, viverra posuere ex. Donec libero lorem, varius et rutrum et, finibus nec leo.</p>
-            </div>
-            <div class="info-footer">
-                <h3>Redes <span>Sociales</span></h3>
-                <nav class="redes-sociales-footer">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </nav>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>Todos los derechos reservados. GDLWEBCAMP 2019.</p>
-        </div>
-    </footer>
-    
-    <script src="js/main.js"></script>
-
-</body>
-</html>
+    <?php include_once 'includes/templates/footer.php'; ?>
